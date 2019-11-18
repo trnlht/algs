@@ -9,7 +9,7 @@ void program1_1()
 
 	using namespace std;
 
-	const int N = 10000;
+	const int N = 7;
 
 	int i, p, q, id[N];
 

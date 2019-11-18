@@ -1,0 +1,2 @@
+void coin_toss();
+

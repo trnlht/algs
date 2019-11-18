@@ -1,17 +1,20 @@
 #include <iostream>
 
 #include "pr1_2.h"
+#include "tools.h"
 
 
 void program1_2()
 {
-	const int N = 10000;
+	const int N = 7;
 
 	int i, j, p, q, id[N];
 
 	//Изначально все эл-ты указывают на себя
 	for(i = 0; i < N; i++)
 		id[i] = i;
+
+	printArray(id);
 	
 	while (std::cin >> p >> q)
 	{
@@ -28,5 +31,7 @@ void program1_2()
 		id[i] =j;
 
 		std::cout << " " << p << " " << q << std::endl;
+
+		printArray(id);
 	}
 }
