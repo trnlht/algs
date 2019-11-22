@@ -1,0 +1,122 @@
+[
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "pairs_in_radius.cpp"
+  ],
+  "file": "pairs_in_radius.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "ex3_12.cpp"
+  ],
+  "file": "ex3_12.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "ex3_16.cpp"
+  ],
+  "file": "ex3_16.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "ex3_23.cpp"
+  ],
+  "file": "ex3_23.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "ex3_10.cpp"
+  ],
+  "file": "ex3_10.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "josephus_problem.cpp"
+  ],
+  "file": "josephus_problem.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "coin_toss.cpp"
+  ],
+  "file": "coin_toss.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "ex3_1.cpp"
+  ],
+  "file": "ex3_1.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "linked_list_tools.cpp"
+  ],
+  "file": "linked_list_tools.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "eratosphenes_sieve.cpp"
+  ],
+  "file": "eratosphenes_sieve.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "point.cpp"
+  ],
+  "file": "point.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "main.cpp"
+  ],
+  "file": "main.cpp"
+ }
+]

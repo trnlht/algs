@@ -7,6 +7,9 @@
 #include "ex3_10.h"
 #include "ex3_12.h"
 #include "ex3_16.h"
+#include "josephus_problem.h"
+#include "ex3_23.h"
+#include "linked_list_tools.h"
 
 int lg(int N)
 {
@@ -31,6 +34,6 @@ void lg_test()
 
 int main()
 {
-	ex3_16();
+	reverse_test();
 }
  	
