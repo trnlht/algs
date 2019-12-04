@@ -10,6 +10,7 @@
 #include "josephus_problem.h"
 #include "ex3_23.h"
 #include "linked_list_tools.h"
+#include "insert_sort.h"
 
 int lg(int N)
 {
@@ -34,6 +35,6 @@ void lg_test()
 
 int main()
 {
-	reverse_test();
+	max_to_end_test();
 }
  	

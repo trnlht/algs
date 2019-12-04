@@ -118,5 +118,15 @@
    "main.cpp"
   ],
   "file": "main.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "insert_sort.cpp"
+  ],
+  "file": "insert_sort.cpp"
  }
 ]
