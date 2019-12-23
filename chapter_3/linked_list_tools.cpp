@@ -116,6 +116,23 @@ void max_to_end(link head)
 	}
 }
 
+void delete_all_nodes(link x)
+{
+	link t = x;		//Текущий узел
+	link p = 0;		//Следующий узел
+
+	while(t != 0)
+	{
+		p = t->next;
+		std::cout << "Deleting node with value: " << t->item << std::endl;
+		delete t;
+		t = p;
+	}
+	
+}
+
+//-----------------------------------TESTS--------------------------------------------
+//------------------------------------------------------------------------------------
 
 void reverse_test()
 {
@@ -148,6 +165,17 @@ void max_to_end_test()
 	cout << "List a with max in the end:" << endl;
 
 	print_list(a->next);
+}
+
+void delete_all_nodes_test()
+{
+	link a = create_list(3);
+
+	std::cout << "List a:" << std::endl;
+
+	print_list(a);
+
+	delete_all_nodes(a);
 }
 
 

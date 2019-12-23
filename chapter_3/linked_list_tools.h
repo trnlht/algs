@@ -15,9 +15,15 @@ link create_random_list_with_head(int N);
 
 void max_to_end(link x);
 
+void delete_all_nodes(link x);
+
+//-----------------------------------TESTS--------------------------------------------
+//------------------------------------------------------------------------------------
 
 void reverse_test();
 
 void max_to_end_test();
+
+void delete_all_nodes_test();
 
 #endif

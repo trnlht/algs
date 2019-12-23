@@ -11,6 +11,7 @@
 #include "ex3_23.h"
 #include "linked_list_tools.h"
 #include "insert_sort.h"
+#include "string_tools.h"
 
 int lg(int N)
 {
@@ -35,6 +36,8 @@ void lg_test()
 
 int main()
 {
-	max_to_end_test();
+	const char* s = "abcdef";
+	std::cout << "Source string :" << s << std::endl;
+	std::cout << "Palindrome: " << (is_a_palindrome(s) ? "True" : "False") << std::endl;
 }
  	
