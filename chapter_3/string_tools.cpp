@@ -1,6 +1,7 @@
 #include <iostream>
 #include <map>
 #include <cstring>
+#include <cstdlib>
 
 
 
@@ -51,8 +52,6 @@ bool is_a_palindrome(const char* s)
 		while(s[j] == space)
 			j--;
 
-		//std::cout << "s[i] = " << s[i] << " s[j] = " << s[j] << std::endl;
-
 		if(s[i] != s[j])
 			break;
 
@@ -63,4 +62,48 @@ bool is_a_palindrome(const char* s)
 	return i > j;
 		
 }
+
+int compare(const void* i, const void* j)
+{
+	return strcmp(*(char**)i, *(char **)j);
+}
+
+void sort_string_array()
+{
+	using namespace std;
+
+	const int Nmax = 1000;
+	const int Mmax = 10000;
+
+	char* a[Nmax];
+	int N;
+	char buf[Mmax];
+	int M = 0;
+
+	for(N = 0; N < Nmax; N++)
+	{
+		a[N] = &buf[M];
+
+		if(!(cin >> a[N]))
+			break;
+
+		M += strlen(a[N]) + 1;
+	}
+
+	qsort(a, N, sizeof(char*), compare);
+
+	for(int i = 0; i < N; i++)
+		cout << a[i] << endl;
+
+}
+
+
+
+
+
+
+
+
+
+
 

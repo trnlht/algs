@@ -128,5 +128,15 @@
    "insert_sort.cpp"
   ],
   "file": "insert_sort.cpp"
+ },
+ {
+  "directory": "/home/trnlht/projects/algs/chapter_3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-MD",
+   "string_tools.cpp"
+  ],
+  "file": "string_tools.cpp"
  }
 ]

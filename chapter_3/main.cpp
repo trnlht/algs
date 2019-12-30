@@ -36,8 +36,6 @@ void lg_test()
 
 int main()
 {
-	const char* s = "abcdef";
-	std::cout << "Source string :" << s << std::endl;
-	std::cout << "Palindrome: " << (is_a_palindrome(s) ? "True" : "False") << std::endl;
+	sort_string_array();
 }
  	
